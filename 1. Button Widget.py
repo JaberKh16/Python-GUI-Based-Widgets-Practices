@@ -1,3 +1,4 @@
+# importing the necessary module
 import tkinter as tk
 from tkinter import ttk
 
@@ -10,7 +11,7 @@ button_1.pack()
 
 # button functionality work
 def Button_Work():
-    print("Button has been clicked")
+    print("Button has been clicked.")
 
 # to configure the button widgets vairable
 button_1.config(command= Button_Work)
